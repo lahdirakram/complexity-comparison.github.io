@@ -1,0 +1,76 @@
+Algorithme pour
+Var
+
+n,i,somme : entier;
+
+Debut 
+lire(n);
+somme=0;
+
+pour i=0 a i<=n faire
+	somme = somme + i;
+fait;
+affiche(somme);
+
+Fin
+
+Algorithme tant que
+Var
+
+n,i,somme : entier;
+
+Debut 
+lire(n);
+somme=0;
+i=0;
+tantque i<=n faire
+	somme = somme + i;
+	i++;
+fait;
+affiche(somme);
+Fin
+
+Algorithme repeter jusque
+Var
+n,i,somme : entier;
+Debut 
+lire(n);
+somme=0;
+i=0;
+repeter
+	somme = somme + i;
+	i++;
+jusque( i>n)
+affiche(somme);
+
+Fin
+
+Algorithme rec 
+var 
+
+Debut
+
+si n == 0 alors retourné 0
+si non retourne n+ rec(n-1)
+
+Fin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
